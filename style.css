@@ -1,0 +1,121 @@
+.body {
+    background-image: url('img/img1.jpg'); /* استبدل برابط الصورة الفعلي */
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .navbar-pink {
+    background-color: #fcf6f9; /* تغيير اللون إلى اللون الوردي الفاتح الذي تفضله */
+  }
+  .nav-link {
+    color: black; /* تعيين لون الروابط إلى اللون الأسود */
+  }
+
+    .slide-image {
+        height: 500px; /* ارتفاع 300 بكسل */
+        width: 60%; /* عرض 60% من حجم الشاشة */
+        margin: auto; /* لتوسيط الصورة أفقيًا */
+        display: block; /* للتأكد من وسط الصورة عموديًا */
+      }
+      
+   
+      .navbar-nav:last-child {
+        margin-left: auto;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+      }
+      .classmain{
+        text-align: center;
+        padding: 40px;
+      }
+      
+
+      .classmain h1 {
+        color: #333;
+      }
+      .classmain h2 {
+        color: #666;
+      }
+      .classmain p {
+        font-size: 18px;
+        color: #888;
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+      footer {
+      /*  background-color: #333;*/
+        color: #180c0c;
+        padding: 30px 0;
+      }
+      .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+      .footer-section {
+        width: calc(33.33% - 20px);
+        margin: 10px;
+      }
+      .footer-section h3 {
+        margin-bottom: 10px;
+      }
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .footer-section ul li {
+        margin-bottom: 8px;
+      }
+      .footer-section ul li a {
+        text-decoration: none;
+        color: #140d0d;
+        transition: color 0.3s, transform 0.3s;
+        cursor: pointer;
+      }
+      .footer-section ul li a:hover {
+        color: #66ccff;
+        transform: scale(1.1);
+      }
+
+
+
+
+
+
+      div button {
+        width: 140px;
+        padding: 12px;
+        font-family: 'Amiri', serif;
+        background-color: rgb(226, 212, 223);
+        font-size: 18px;
+        border: 2px solid white;
+        margin-top: 10px;
+        font-style: bold;
+        border-radius: 20px 0px 20px 0px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    div button:hover {
+        color: rgb(150, 124, 175);
+        background: hsl(60, 1%, 20%);
+        border: 2px solid hsl(60, 1%, 20%);
+    }
+    
+    /* Specific styling for multiple elements */
+    div button[id^='btn'] {
+        margin-right: 5px;
+    }
+    
+    
+    
+    
+
+      
